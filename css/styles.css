@@ -14,10 +14,13 @@ a:link {
 
 .url,
 .text-featured,
-a:link {
+.link-featured {
     color: #bcbbbb;
 }
 
+.link-modal {
+    color: #ffa500;
+}
 /* Header */
 .name {
     font-weight: 100;
