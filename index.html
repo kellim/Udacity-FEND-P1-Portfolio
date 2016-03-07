@@ -42,34 +42,37 @@
                 </div>
                 <div class="row text-center">
                     <article class="col-sm-6 col-md-4">
-                        <img class="img-responsive center-block" src="images/portfolio300x200.jpg" data-toggle="modal" data-target="#portfolio" alt="placeholder image of laptop and paper notebook">
-                        <h3 class="text-uppercase app-name">Portfolio Site</h3>
-                        <p class="url"><a href="https://github.com/kellim/portfolio">https://github.com/kellim/portfolio</a></p>
+                        <img class="img-responsive center-block" src="images/arcade300x200.jpg" data-toggle="modal" data-target="#arcade" alt="Arcade Game">
+                        <h3 class="text-uppercase app-name">Arcade Game</h3>
+                        <p class="url"><a href="https://github.com/kellim/arcade-game">github.com/kellim/arcade-game</a></p>
                     </article>
                     <article class="col-sm-6 col-md-4">
-                        <img class="img-responsive center-block" src="images/resume300x200.jpg" data-toggle="modal" data-target="#resume" alt="placeholder image of using a computer">
-                        <h3 class="text-uppercase app-name">Online Resume</h3>
-                        <p class="url"><a href="https://github.com/kellim/resume">https://github.com/kellim/resume</a></p>
+                        <img class="img-responsive center-block" src="images/optimization300x200.jpg" data-toggle="modal" data-target="#optimization" alt="Site Optimization">
+                        <h3 class="text-uppercase app-name">Site Optimization</h3>
+                        <p class="url"><a href="https://github.com/kellim/website-optimization">github.com/kellim/website-optimization</a></p>
                     </article>
                     <article class="col-sm-6 col-md-4">
-                        <img class="img-responsive center-block" src="images/arcade300x200.jpg" data-toggle="modal" data-target="#arcade" alt="placeholder outerspace image">
-                        <h3 class="text-uppercase app-name">Arcade Game Clone</h3>
-                        <p class="url"><a href="https://github.com/kellim/arcade">https://github.com/kellim/arcade</a></p>
+                        <img class="img-responsive center-block" src="images/map300x200.jpg" data-toggle="modal" data-target="#map" alt="Neighborhood Map">
+                        <h3 class="text-uppercase app-name">Neighborhood Map</h3>
+                        <p class="url"><a href="https://github.com/kellim/neighborhood-map">github.com/kellim/neighborhood-map</a></p>
                     </article>
                 </div>
             </main>
         </div>
 
         <!-- Portfolio Modal -->
-        <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal fade" id="arcade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel1">Portfolio Site</h4>
+                <h4 class="modal-title" id="myModalLabel1">Arcade Game: Bug Crossing</h4>
               </div>
               <div class="modal-body">
-                <p><img class="img-responsive" src="images/portfolio_modal.jpg" alt="placeholder image of laptop and paper notebook">
-                Creating a portfolio site was my first project for Udacity's Front-End Developer Nanodegree. I was given a design mock-up to follow and customize. I created the portfolio page using Bootstrap. The images are currently placeholders that will be replaced once I have completed the projects. More projects will be added later as well.</p>
+                <p><img class="img-responsive" src="images/arcade_modal.jpg" alt="Bug Crossing Arcade Game">
+                 Bug Crossing is my arcade game for project 3 of Udacity's Front-End Web Development Nanodegree. It
+                 is an HTML 5 Canvas powered game created with a game engine and visual assets provided by Udacity. I used object-oriented JavaScript to create and control entities as well as detect collisions.</p>
+                <p>You can take a look at the <strong><a href="https://github.com/kellim/arcade-game">repo</a></strong>
+                or <strong><a href="http://kellim.github.io/arcade-game">play the game</a></strong>.</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -80,15 +83,21 @@
         <!-- End Portfolio Modal -->
 
         <!-- Resume Modal -->
-        <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal fade" id="optimization" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel2">Online Resume</h4>
+                <h4 class="modal-title" id="myModalLabel2">Website Optimization</h4>
               </div>
               <div class="modal-body">
-                <p><img class="img-responsive" src="images/resume_modal.jpg" alt="placeholder image of using a computer">
-                Creating an online resume is the second project for Udacity's Front-End Developer Nanodegree.</p>
+                <p><img class="img-responsive" src="images/optimization_modal.jpg" alt="Website Optimization with Chrome Dev Tools">
+                 Website Optimization is my fourth project for Udacity's Front-End Web Development Nanodegree.</p>
+                <p>I improved PageSpeed Insights speed score on a portfolio page provided by Udacity from 28/100 to
+                 94/100 for mobile and from 30/100 to 96/100 for desktop. In addition, I optimized JavaScript code on a
+                 pizzeria page with performance issues to run at 60 frames per second. I also automated the build process using Grunt to compress images, minify css and JavaScript files, as well as modify html files prior to copying them to distribution code.</p>
+                <p>You can take a look at the <strong><a href="https://github.com/kellim/website-optimization">repo</a></strong> or <strong><a href="http://kellim.github.io/website-optimization/">look at the site that was
+                optimized.</a></strong>. Also, there's the <strong><a href="https://github.com/udacity/frontend-nanodegree-mobile-portfolio">original repo</a></strong> where the code still has all the issues that
+                were fixed.</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -99,15 +108,20 @@
         <!-- End Resume Modal -->
 
         <!-- Arcade Modal -->
-        <div class="modal fade" id="arcade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel3">Arcade Game Clone</h4>
+                <h4 class="modal-title" id="myModalLabel3">Neighborhood Map</h4>
               </div>
               <div class="modal-body">
-                <p><img class="img-responsive" src="images/arcade_modal.jpg" alt="placeholder outerspace image">
-                Creating an arcade game clone is the third project for Udacity's Front-End Developer Nanodegree.</p>
+                <p><img class="img-responsive" src="images/map300x200.jpg" alt="Neighborhood Map">
+                <strong>NOTE: This project is in progress with an expected completion date of March, 2016.</strong></p>
+                <p>Neighborhood Map is the fifth project for Udacity's Front-End Web Developer Nanodegree.
+                For this project, I'm using Knockout.js along with the Google Maps API and USDA National Farmers Market Directory API to create a mashup where visitors can search for Farmer's Markets near them
+                by entering their zip code, then nearby Farmer's Markets will be shown on the map.</p>
+                <p>You can take a look at the <strong><a href="https://github.com/kellim/neighborhood-map">repo</a>
+                </strong>which is still a work in progress.
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
